@@ -16,13 +16,14 @@ public class LessonRepository {
   public List<Lesson> getAllLessons() {
     String content = readFile();
     return Arrays.stream(content.split("-----")).map(lessonRaw -> {
-
       final String[] parts = lessonRaw.split("\n");
 
-      final String title = extractElement(parts, "title: ");
-      final String description = extractElement(parts, "description: ");
-      final String dateAndTime = extractElement(parts, "date: ");
-      return new Lesson(title, description, LocalDateTime.parse(dateAndTime));
+      final Lesson lesson = new Lesson();
+      lesson.title = extractElement(parts, "title: ");
+      lesson.description = extractElement(parts, "description: ");
+      lesson.dateAndTime = LocalDateTime.parse(extractElement(parts, "date: "));
+
+      return lesson;
 
     }).collect(Collectors.toList());
   }

@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
     var listHtml = lessons.map(lesson => `
       <div class="lesson-component">
             <h3>${lesson.title}</h3>
-            <div>When: <b>${lesson.dateAndTime}</b></div>
+            <div>When: <b>${new Date(lesson.dateAndTime).toLocaleString("uk")}</b></div>
             <div>${lesson.description}</div>
       </div>
     `).join("");

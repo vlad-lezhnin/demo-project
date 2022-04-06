@@ -8,9 +8,4 @@ public class Lesson {
   public String description;
   public LocalDateTime dateAndTime;
 
-  public Lesson(String title, String description, LocalDateTime dateAndTime) {
-    this.title = title;
-    this.description = description;
-    this.dateAndTime = dateAndTime;
-  }
 }
