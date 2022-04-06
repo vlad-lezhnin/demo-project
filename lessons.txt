@@ -1,0 +1,15 @@
+title: Intro into Software Engineer role
+description: Друзі, 6го квітня о 19:00 за Києвом ми будемо розмовляти про роль Інженера програмного забезпечення(девелопера).
+date: 2022-04-06T18:00:00
+-----
+title: Intro into QA
+description: Introduction into QA
+date: 2022-01-06T18:00:00
+-----
+title: Intro into SCRUM
+description: Introduction into Agile and Scrum
+date: 2022-03-20T18:00:00
+-----
+title: Intro into Java
+description: We are going to talk about java programming language
+date: 2022-03-20T13:00:00
