@@ -13,3 +13,8 @@ date: 2022-03-20T18:00:00
 title: Intro into Java
 description: We are going to talk about java programming language
 date: 2022-03-20T13:00:00
+-----
+title: Intro into C#
+description: We are going to talk about C# programming language
+date: 2022-05-20T13:00:00
+slides: https://docs.google.com/spreadsheets/d/1Tmt69cSlfdA2QYiY_icyyrNc9sNdZp9rScm0v8ex3PU/edit?usp=sharing

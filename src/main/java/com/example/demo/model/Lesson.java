@@ -7,5 +7,6 @@ public class Lesson {
   public String title;
   public String description;
   public LocalDateTime dateAndTime;
+  public String slides;
 
 }

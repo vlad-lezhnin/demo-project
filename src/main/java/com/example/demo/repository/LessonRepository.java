@@ -21,6 +21,7 @@ public class LessonRepository {
       final Lesson lesson = new Lesson();
       lesson.title = extractElement(parts, "title: ");
       lesson.description = extractElement(parts, "description: ");
+      lesson.slides = extractElement(parts, "slides: ");
       lesson.dateAndTime = LocalDateTime.parse(extractElement(parts, "date: "));
 
       return lesson;
